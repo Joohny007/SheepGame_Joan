@@ -1,0 +1,19 @@
+I added some things:
+
+· A la funció OnTriggerEnter, a HayDestroyer, com només passaran els prefabs de les bullets
+no cal ficar un if, per tant només he ficat el Destroy(other.gameObject).
+
+· Hearts that fly away and dissapear after a programmed time when the sheep is shot
+by the hay.
+
+· Sounds (hay shot, sheep droping, and sheep shot by hay)
+
+· After that passes 3 sheeps, the game, ends.
+
+· Score: how many sheeps has passed, and how many have you killed.
+
+· A menu, that when you pass the mouse over the Start button or Quit button, it changes de color.
+
+· On the menu, you can choose which HayMachine's color you want (Blue, Red or Yellow).
+
+· And as final thing, over the time the sheeps spawn faster.
